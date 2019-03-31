@@ -1,0 +1,73 @@
+/*style css de projet cv*/
+body{
+	background: black;
+}
+
+/*contenaire*/
+.contenaire{
+	background: #ffffff;
+	border-radius: 15px;
+	box-shadow: 15px 15px #888888;
+	width: 900px;
+	margin: auto;
+	display:flex;
+	flex-warp:warp;
+}
+
+
+/*part left bleu*/	
+section.left {
+	border-right: solid black 2px ;
+	background: #64b3df;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	padding: 10px;
+	flex:1;
+}
+
+.contenaire .img{width: 110px; 
+	height: 120px;
+	padding: 15px;
+	margin:auto 20px;
+	background: #b6d6e9;
+	border: 5px solid #ffffff;
+	border-radius: 15px;
+}
+
+/*part right*/
+article.right{
+	flex:4;
+}
+
+.contenaire .right .bottom{
+	margin: auto;
+	display:flex;
+	flex-warp:warp;
+
+}
+.contenaire .right .bottom #part-1{
+	border-right: 6px solid black;
+	padding-right: 10px;
+}
+.contenaire .right .bottom #part-2{
+	padding-left: 10px;
+}
+
+/*! normalize.css*/
+h2 {
+	border: 1px  black solid;
+	background-color: #175778;
+	border-radius: 10px;
+    color: #ffffff;
+	margin: 10px;
+	padding: 2px;
+	text-align: center;
+}
+
+
+p:hover, li:hover, a:hover{
+    color: blue;
+}
+
+a{color:black;}
+h4{margin: 10px;}
